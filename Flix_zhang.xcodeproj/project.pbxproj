@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 				D95549E4D781D2B188D694B0 /* Pods-Flix_zhangTests.debug.xcconfig */,
 				D22DAC61DCE383EE9895503A /* Pods-Flix_zhangTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -591,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Y49JK9ZF;
 				INFOPLIST_FILE = Flix_zhang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,6 +610,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Y49JK9ZF;
 				INFOPLIST_FILE = Flix_zhang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
