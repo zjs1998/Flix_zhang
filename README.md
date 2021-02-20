@@ -21,7 +21,7 @@ During the app building process, it was easy until the last step for image URL t
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/gFxbOmlG9d.gif" width=250><br>
-<img src="http://g.recordit.co/B8YMzywAao.gif" width=250><br>
+<img src="http://g.recordit.co/D4pFacDXAk.gif" width=250><br>
 
 ### Notes
 During the app building process, it was easy until the last step for image URL to be display on the simulator iphone. At first, I thought it was the problem with my own code, however, I could not find the problem I got, it just told me there is no match, Then I googled and I change the URL "http" tp "https" and problem solved!
