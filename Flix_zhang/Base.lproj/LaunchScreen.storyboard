@@ -16,13 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="BMt-Uf-Xbf">
-                                <rect key="frame" x="138" y="379" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="BMt-Uf-Xbf">
+                                <rect key="frame" x="138" y="388" width="138" height="139"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BMt-Uf-Xbf" secondAttribute="bottom" constant="335" id="68u-ed-MeY"/>
+                            <constraint firstItem="BMt-Uf-Xbf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="138" id="LIR-9g-hmi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BMt-Uf-Xbf" secondAttribute="bottom" constant="344" id="RNf-nJ-d3U"/>
+                            <constraint firstItem="BMt-Uf-Xbf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YfB-CY-Tg3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BMt-Uf-Xbf" secondAttribute="bottom" constant="335" id="jPS-7p-QP6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RNf-nJ-d3U"/>
+                                <exclude reference="jPS-7p-QP6"/>
+                                <exclude reference="LIR-9g-hmi"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
