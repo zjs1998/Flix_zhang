@@ -2,7 +2,7 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+During the app building process, it was easy until the last step for image URL to be display on the simulator iphone. At first, I thought it was the problem with my own code, however, I could not find the problem I got, it just told me there is no match, Then I googled and I change the URL "http" tp "https" and problem solved!
 
 ---
 
@@ -23,4 +23,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/gFxbOmlG9d.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+During the app building process, it was easy until the last step for image URL to be display on the simulator iphone. At first, I thought it was the problem with my own code, however, I could not find the problem I got, it just told me there is no match, Then I googled and I change the URL "http" tp "https" and problem solved!
