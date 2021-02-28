@@ -13,7 +13,7 @@ While developing the app, I got two problems. One is that I got an apple map whe
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/51PVZ2khQ5.gif" width=250><br>
-<img src="http://g.recordit.co/VgeRnzTaMR.gif" width=250><br>
+<img src="http://g.recordit.co/bN18DCLp5d.gif" width=250><br>
 
 ### Notes
 While developing the app, I got two problems. One is that I got an apple map when using the tab view and the reason is that I somehow scroll the tab of UIView to the Mapview, which cause the problem. The other one is that when I touch the Superhero tab first, it just show me twenty little pictures about the movies, to fix this, you need to select the collection view of the Superhero and change the "Estimate Size" to None, so the Swift will automatically make the pictures fill the screen.
